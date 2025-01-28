@@ -91,11 +91,8 @@ except Exception as e:
     from pystyle import Center as pyCenter
     from pystyle import System as pySystem
     
-
-text = """
-< [ Telegram @cpmnurik2010 ] > X < [ TikTok nur1k_10_0 ] >
-"""[1:]
-
+#text = """
+#< [ Telegram Ewan_Ali ] > X < [ TikTok Ewan.Shex.Ali ] >"""[1:]
 
 
 banner = r"""
@@ -182,8 +179,8 @@ import datetime
 
 from cpmewan1999 import CPMEwan1999
 
-__CHANNEL_USERNAME__ = "Cpmnurik2010bot"
-__GROUP_USERNAME__ = "Cpmnurik20_10bot"
+__CHANNEL_USERNAME__ = "Ewan1999Kurd"
+__GROUP_USERNAME__   = "Ewan19_99Kurd"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
