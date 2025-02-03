@@ -177,10 +177,10 @@ from pystyle import Colors, Colorate
 from pystyle import Center
 import datetime
 
-from cpmewan1999 import CPMEwan1999
+from cpmnurik2010 import CPMNurik2010
 
-__CHANNEL_USERNAME__ = "Ewan1999Kurd"
-__GROUP_USERNAME__   = "Ewan19_99Kurd"
+__CHANNEL_USERNAME__ = "Nurik2010"
+__GROUP_USERNAME__   = "Nurik20_10"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -205,12 +205,12 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  "       ▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ \n"
-    brand_name += "       ▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ \n"
-    brand_name += "       ▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒\n"
-    brand_name += "       ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒\n"
-    brand_name += "       ▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░\n"
-    brand_name += "       ░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ \n"
+    brand_name =  "       ▄████▄   ██▓███   ███▄ ▄███\n"
+    brand_name += "       ▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ █\n"
+    brand_name += "       ▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██\n"
+    brand_name += "       ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ \n"
+    brand_name += "       ▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒\n"
+    brand_name += "       ░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░\n"
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
