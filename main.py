@@ -204,13 +204,17 @@ def gradient_text(text, colors):
     return colorful_text
 
 def banner(console):
-    os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  "       ▄████▄   ██▓███   ███▄ ▄███\n"
-    brand_name += "       ▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ █\n"
-    brand_name += "       ▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██\n"
-    brand_name += "       ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ \n"
-    brand_name += "       ▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒\n"
-    brand_name += "       ░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░\n"
+    os.system('cls' if os.name == 'nt' 'clear'
+ brand_name =  "▄████▄   ██▓███   ███▄ ▄███▓ ███▄    █  █    ██  ██▀███  \n"
+brand_name =  "▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒ ██ ▀█   █  ██  ▓██▒▓██ ▒ ██▒\n"
+brand_name =  "▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▓██  ▀█ ██▒▓██  ▒██░▓██ ░▄█ ▒\n"
+brand_name =  "▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▓██▒  ▐▌██▒▓▓█  ░██░▒██▀▀█▄  \n"
+brand_name =  "▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒▒██░   ▓██░▒▒█████▓ ░██▓ ▒██▒\n"
+brand_name =  "░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░ ▒░   ▒ ▒ ░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░\n"
+ brand_name =  " ░  ▒   ░▒ ░     ░  ░      ░░ ░░   ░ ▒░░░▒░ ░ ░   ░▒ ░ ▒░\n"
+brand_name =  "░        ░░       ░      ░      ░   ░ ░  ░░░ ░ ░   ░░   ░ \n"
+brand_name =  "░ ░                      ░            ░    ░        ░     \n"
+brand_name =  "░                                                         \n"
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
