@@ -316,7 +316,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold][?] ACCOUNT PASSWORD[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] ACCESS KEY[/bold]", "Access Key", password=False)
         console.print("[bold cyan][%] TRYING TO LOGIN[/bold cyan]: ", end=None)
-        cpm = CPMEwan1999(acc_access_key)
+        cpm = CPMNurik2010(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
