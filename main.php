@@ -8,7 +8,7 @@ use skrtdev\Telegram\Message;
 use skrtdev\Telegram\Invoice;
 use skrtdev\Telegram\CallbackQuery;
 
-define("BOT_TOKEN", '8003215220:AAFTFkOm4xuL7aKdHzUna_FwZTo-DSQTJAU');
+define("BOT_TOKEN", '8003215220:AAGd_se6znxY_MWg-jVgJJvFoH9ALTnofe4');
 define("DEVELOPER_ID", 6503746836);
 define("CHANNEL_ID", --1002342495517);
 define("LOGGING_ID", --1002349447710);
